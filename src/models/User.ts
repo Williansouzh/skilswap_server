@@ -3,8 +3,8 @@ import { sequelize } from "@/instances/mysql"
 
 export interface UserInstance extends Model {
   id: number
-  email: number
-  password: number
+  email: string
+  password: string
   address_id: number
   profilepicture: string
   services: string

@@ -4,5 +4,5 @@ export type userType = {
   password: string
   profilepicture: string
   services: string
-  address_id: number
+  address_id?: number | null
 }
